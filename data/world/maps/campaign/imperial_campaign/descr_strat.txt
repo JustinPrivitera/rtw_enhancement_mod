@@ -916,8 +916,61 @@ relative 	Quintus Julius, 	Alypia,		Amulius Julius,	end
 relative 	Vibius Julius, 	Claudia,		Manius Julius,	end
 
 
-; faction	romans_brutii, balanced stalin
-; denari	5000
+faction	romans_brutii, balanced stalin
+denari	5000
+settlement
+{
+	level city
+	region Sicilia_Graecus
+
+	year_founded 0
+	population 6000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+character	Dionysios of Sparta, named character, age 34, , x 106, y 44 
+traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2 
+ancillaries brilliant_inventor, playwright
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+
+character	Diodoros of Gela, diplomat, age 49, , x 105, y 44 
+traits GoodDiplomat 4 
+
+character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
+
+relative 	Dionysios of Sparta, 	Harmonia,		end
 
 
 ; faction	romans_scipii, bureaucrat napoleon
@@ -3146,41 +3199,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level city
-	region Sicilia_Graecus
-
-	year_founded 0
-	population 6000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type port_buildings port
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
 character	Kleomenes of Sparta, named character, leader, age 56, , x 138, y 46 
 traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , Austere 2 , Intelligent 1 
 ancillaries wrestler
@@ -3191,18 +3209,6 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
 unit		greek peasant				exp 1 armour 0 weapon_lvl 0
 unit		greek peasant				exp 1 armour 0 weapon_lvl 0
-
-character	Dionysios of Sparta, named character, age 34, , x 106, y 44 
-traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2 
-ancillaries brilliant_inventor, playwright
-army
-unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek archer				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 
 character	Antigonos of Sparta, named character, age 33, , x 132, y 55 
 traits NaturalMilitarySkill 1 , Intelligent 1 , Drink 1 , Energetic 1 
@@ -3245,12 +3251,8 @@ character	Charax of Gythium, spy, age 30, , x 140, y 46
 traits GoodSpy 2 
 ancillaries catamite
 
-character	Diodoros of Gela, diplomat, age 49, , x 105, y 44 
-traits GoodDiplomat 4 
 
-
-character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 53, alive, never_a_leader
-character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
+character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 53, alive, never_a_leade
 character_record		Eunice, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
 character_record		Kyra, 	female, command 0, influence 0, management 0, subterfuge 0, age 26, alive, never_a_leader
 character_record		Cleon of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
@@ -3259,8 +3261,7 @@ character_record		Eugenius of Sparta, 	male, command 0, influence 0, management 
 character_record		Nicanor of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
 character_record		Hermine of Sparta, 	female, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
 
-relative 	Kleomenes of Sparta, 	Clymene,		Dionysios of Sparta,	Antigonos of Sparta,	Eumenes of Sparta,	Memnon of Sparta,	end
-relative 	Dionysios of Sparta, 	Harmonia,		Cleon of Sparta,	Hermine of Sparta,	end
+relative 	Kleomenes of Sparta, 	Clymene,		Antigonos of Sparta,	Eumenes of Sparta,	Memnon of Sparta,	end
 relative 	Antigonos of Sparta, 	Eunice,		Doros of Sparta,	Nicanor of Sparta,	end
 relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
 
