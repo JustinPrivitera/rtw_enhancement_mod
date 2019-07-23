@@ -3,6 +3,8 @@
 campaign		imperial_campaign
 playable
 	romans_julii
+	romans_brutii
+	romans_scipii
 	egypt
 	seleucid
 	carthage
@@ -23,8 +25,6 @@ end
 unlockable
 end
 nonplayable
-	romans_brutii
-	romans_scipii
 	romans_senate
 	slave
 end
@@ -920,6 +920,90 @@ faction	romans_brutii, balanced stalin
 denari	5000
 settlement
 {
+	level large_town
+	region Dalmatia
+
+	year_founded 0
+	population 3500
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+settlement
+{
+	level town
+	region Illyria
+
+	year_founded 0
+	population 1400
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+character	Akylos of Illyria, named character, leader, age 30, , x 118, y 75 
+traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2 
+army
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+unit		merc cilician pirate				exp 1 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+
+character	Polykritos of Illyria, named character, heir, age 20, , x 105, y 90 
+traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2 
+army
+unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+
+
+faction	romans_scipii, bureaucrat napoleon
+denari	5000
+settlement
+{
 	level city
 	region Sicilia_Graecus
 
@@ -953,7 +1037,7 @@ settlement
 	}
 }
 
-character	Dionysios of Sparta, named character, age 34, , x 106, y 44 
+character	Dionysios of Sparta, named character, leader, age 34, , x 106, y 44 
 traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2 
 ancillaries brilliant_inventor, playwright
 army
@@ -971,10 +1055,6 @@ traits GoodDiplomat 4
 character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
 
 relative 	Dionysios of Sparta, 	Harmonia,		end
-
-
-; faction	romans_scipii, bureaucrat napoleon
-; denari	5000
 
 
 ; faction	romans_senate, comfortable napoleon
@@ -3955,29 +4035,6 @@ settlement
 
 settlement
 {
-	level town
-	region Illyria
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
 	level large_town
 	region Propontis
 
@@ -4346,14 +4403,6 @@ unit		merc cretan archers				exp 2 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 2 armour 0 weapon_lvl 0
 unit		merc cilician pirate				exp 2 armour 0 weapon_lvl 0
 
-character	sub_faction greek_cities, Ifestionas, general, age 20, , x 118, y 75 
-
-army
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		merc cilician pirate				exp 1 armour 0 weapon_lvl 0
-unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
-unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
-
 character	sub_faction greek_cities, Diodoros, general, age 20, , x 130, y 19 
 
 army
@@ -4367,13 +4416,6 @@ army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		merc thracian				exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction dacia, Scyles, general, age 20, , x 105, y 90 
-
-army
-unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
-unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
-unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction dacia, Dicomes, general, age 20, , x 116, y 101 
 
