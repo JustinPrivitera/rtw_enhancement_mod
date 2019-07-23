@@ -1,0 +1,100 @@
+romans_julii
+hold_regions Latium Africa Central_Gaul Macedonia Celtiberia Syria Nile_Delta
+take_regions 50
+short_campaign outlive_factions
+gauls carthage macedon
+
+romans_brutii
+take_rome
+short_campaign outlive_factions
+macedon greek_cities
+
+romans_scipii
+take_rome
+short_campaign outlive_factions
+carthage numidia
+
+romans_senate
+take_rome
+short_campaign outlive_factions
+romans_julii
+
+macedon
+take_rome 
+short_campaign outlive_factions
+greek_cities thrace
+
+egypt
+take_rome 
+short_campaign outlive_factions
+seleucid armenia
+
+seleucid
+take_rome 
+short_campaign outlive_factions
+egypt
+
+carthage
+take_rome 
+short_campaign outlive_factions
+romans_scipii spain
+
+parthia
+take_rome 
+short_campaign outlive_factions
+seleucid armenia
+
+pontus
+take_rome 
+short_campaign outlive_factions
+armenia thrace
+
+gauls
+take_rome 
+short_campaign outlive_factions
+romans_julii romans_senate
+
+germans
+take_rome 
+short_campaign outlive_factions
+dacia scythia
+
+britons
+take_rome 
+short_campaign outlive_factions
+gauls
+
+armenia
+take_rome 
+short_campaign outlive_factions
+seleucid
+
+dacia
+take_rome 
+short_campaign outlive_factions
+macedon thrace
+
+greek_cities
+take_rome 
+short_campaign outlive_factions
+macedon thrace
+
+numidia
+take_rome 
+short_campaign outlive_factions
+carthage
+
+scythia
+take_rome 
+short_campaign outlive_factions
+dacia thrace
+
+spain
+take_rome 
+short_campaign outlive_factions
+carthage
+
+thrace
+take_rome 
+short_campaign outlive_factions
+macedon
