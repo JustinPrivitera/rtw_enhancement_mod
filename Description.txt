@@ -1,0 +1,1 @@
+To uninstall, copy the contents of the uninstall folder to the RTW main game directory
