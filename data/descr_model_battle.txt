@@ -933,7 +933,6 @@ texture				macedon, data/models_unit/textures/officer_greek_hoplite_macedon.tga
 texture				seleucid, data/models_unit/textures/officer_greek_hoplite_seleucid.tga
 ;texture				greek_cities, data/models_unit/textures/officer_greek_hoplite_greece.tga ;MISSING
 texture				thrace, data/models_unit/textures/officer_greek_hoplite_thrace.tga
-texture				romans_scipii, data/models_unit/textures/officer_greek_hoplite_thrace.tga
 ;texture				slave, data/models_unit/textures/officer_greek_hoplite_rebel.tga		;MISSING
 model_flexi_m		data/models_unit/officer_greek_hoplite_400.cas, 8
 model_flexi_m		data/models_unit/officer_greek_hoplite_300.cas, 15
