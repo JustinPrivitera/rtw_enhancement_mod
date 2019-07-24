@@ -520,10 +520,6 @@ settlement
 	}
 	building
 	{
-		type port_buildings port
-	}
-	building
-	{
 		type defenses wooden_pallisade
 	}
 	building
@@ -657,6 +653,10 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type port_buildings port
 	}
 	building
 	{
@@ -4250,6 +4250,20 @@ settlement
 		type hinterland_roads roads
 	}
 }
+
+character	sub_faction greek_cities, Metrophanes, general, age 20, , x 117, y 62 
+army
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Timotheus, general, age 20, , x 111, y 59 
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Philaon, general, age 20, , x 106, y 51 
 army
