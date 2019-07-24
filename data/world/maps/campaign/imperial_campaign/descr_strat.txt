@@ -4250,12 +4250,16 @@ settlement
 	region Phrygia
 
 	year_founded 0
-	population 2800
+	population 5500
 	plan_set default_set
 	faction_creator macedon
 	building
 	{
 		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
 	}
 	building
 	{
