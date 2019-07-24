@@ -181,7 +181,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 150, 100, 20, 30, 150
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             barb peasant german
@@ -282,7 +282,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 220, 130, 30, 40, 220
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             barb peltast german
@@ -511,7 +511,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 960, 200, 100, 150, 960
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             warband hurler briton
@@ -614,7 +614,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 420, 200, 50, 70, 420
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             barb infantry slave
@@ -717,7 +717,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 460, 170, 50, 70, 460
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             warband axe german
@@ -925,7 +925,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 680, 210, 70, 110, 680
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             warband woad briton
@@ -979,7 +979,7 @@ stat_cost        2, 430, 130, 50, 70, 430
 ownership        dacia
  
  
-type             barb naked fanatics gauls
+type             barb naked fanatics romans_brutii, gauls
 dictionary       naked_fanatics_gaul      ; Naked Fanatics
 category         infantry
 class            heavy
@@ -1001,7 +1001,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 430, 130, 50, 70, 430
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             barb naked fanatics german
@@ -1304,7 +1304,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 610, 40, 60, 80, 510
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             barb wardogs german
@@ -1410,7 +1410,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 90, 40, 60, 400
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             barb cavalry german
@@ -1545,7 +1545,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 600, 160, 60, 90, 600
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             barb noble cavalry german
@@ -2001,7 +2001,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 810, 110, 90, 130, 810
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             barb chieftain cavalry early german
@@ -2136,7 +2136,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 940, 110, 100, 150, 940
-ownership        gauls
+ownership        romans_brutii, gauls
  
  
 type             barb chieftain cavalry german
@@ -4180,7 +4180,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 350, 170, 40, 60, 350
-ownership        greek_cities, slave
+ownership        romans_scipii, romans_senate, greek_cities, slave
  
  
 type             greek hoplite militia
@@ -4230,7 +4230,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 440, 170, 50, 70, 440
-ownership        greek_cities, slave
+ownership        romans_scipii, romans_senate, greek_cities, slave
  
  
 type             greek hoplite elite
@@ -4256,7 +4256,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 640, 210, 70, 100, 640
-ownership        greek_cities
+ownership        romans_scipii, romans_senate, greek_cities
  
  
 type             greek hoplite spartan
@@ -4488,7 +4488,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 340, 110, 40, 60, 340
-ownership        greek_cities, seleucid, thrace, slave
+ownership        romans_scipii, romans_senate, greek_cities, seleucid, thrace, slave
  
  
 type             greek medium cavalry
@@ -4596,7 +4596,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 690, 130, 70, 110, 690
-ownership        greek_cities, seleucid, macedon, slave
+ownership        romans_scipii, romans_senate, greek_cities, seleucid, macedon, slave
  
  
 type             greek general's guard cavalry
@@ -4623,7 +4623,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1020, 130, 110, 160, 1020
-ownership        greek_cities, seleucid, macedon
+ownership        romans_scipii, romans_senate, greek_cities, seleucid, macedon
  
  
 type             thracian bodyguard early
@@ -4784,7 +4784,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 140, 50, 20, 20, 110
-ownership        greek_cities
+ownership        romans_scipii, romans_senate, greek_cities
  
  
 type             greek ballista
@@ -4810,7 +4810,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 220, 100, 30, 40, 220
-ownership        greek_cities, macedon
+ownership        romans_scipii, romans_senate, greek_cities, macedon
  
  
 type             greek onager
@@ -4862,7 +4862,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 930, 110, 100, 140, 930
-ownership        greek_cities, macedon
+ownership        romans_scipii, romans_senate, greek_cities, macedon
  
  
 type             greek chariot scythed
@@ -4939,7 +4939,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 190, 170, 20, 30, 190
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman archer auxillia
@@ -4965,7 +4965,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 400, 170, 40, 60, 400
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman velite
@@ -5018,7 +5018,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 290, 170, 30, 50, 290
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman city militia
@@ -5094,7 +5094,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 490, 170, 50, 80, 490
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman triarii
@@ -5121,7 +5121,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 500, 210, 50, 80, 500
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman infantry auxillia
@@ -5147,7 +5147,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 430, 170, 50, 70, 430
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman legionary cohort i
@@ -5173,7 +5173,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 610, 210, 70, 100, 610
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman legionary first cohort i
@@ -5200,7 +5200,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1010, 310, 110, 160, 1010
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman legionary cohort ii
@@ -5226,7 +5226,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 740, 210, 80, 120, 740
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman legionary first cohort ii
@@ -5253,7 +5253,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1220, 310, 130, 190, 1220
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman praetorian cohort i
@@ -5279,7 +5279,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 810, 320, 90, 130, 810
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman praetorian cohort urban i
@@ -5306,7 +5306,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 860, 320, 90, 130, 860
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman arcani
@@ -5357,7 +5357,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 680, 50, 60, 90, 570
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman pigs
@@ -5383,7 +5383,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 260, 50, 20, 30, 200
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman velite gladiator
@@ -5512,7 +5512,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 470, 110, 50, 70, 470
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman medium cavalry
@@ -5539,7 +5539,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 520, 120, 60, 80, 520
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman heavy cavalry
@@ -5566,7 +5566,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 790, 190, 80, 120, 790
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman praetorian cavalry
@@ -5593,7 +5593,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 840, 240, 90, 130, 840
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman generals guard cavalry early
@@ -5620,7 +5620,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 790, 80, 80, 120, 790
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman generals guard cavalry
@@ -5647,7 +5647,7 @@ stat_charge_dist 40
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 1120, 80, 120, 170, 1120
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman ballista
@@ -5673,7 +5673,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 320, 100, 40, 50, 320
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman scorpion
@@ -5699,7 +5699,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 380, 100, 40, 60, 380
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman onager
@@ -5725,7 +5725,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 830, 120, 90, 130, 830
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman heavy onager
@@ -5751,7 +5751,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 1050, 120, 110, 160, 1050
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             roman repeating ballista
@@ -5777,7 +5777,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        2, 460, 160, 50, 70, 460
-ownership        romans_julii,romans_brutii,romans_scipii,romans_senate
+ownership        romans_julii
  
  
 type             generic rebel general
@@ -6191,7 +6191,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 470, 200, 50, 70, 470
-ownership        slave, greek_cities
+ownership        slave, romans_scipii, romans_senate, greek_cities
  
  
 type             merc cretan archers
@@ -6216,7 +6216,7 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 550, 200, 60, 90, 550
-ownership        slave, greek_cities, macedon
+ownership        slave, romans_scipii, romans_senate, greek_cities, macedon
  
  
 type             merc greek hoplites
