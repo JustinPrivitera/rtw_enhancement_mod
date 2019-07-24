@@ -3246,91 +3246,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Rhodos
-
-	year_founded 0
-	population 3900
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_wall
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type port_buildings port
-	}
-	building
-	{
-		type market market
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement
-{
-	level large_town
-	region Phrygia
-
-	year_founded 0
-	population 2800
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type market trader
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
-settlement
-{
-	level large_town
-	region Aetolia
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type missiles practice_field
-	}
-}
-
 character	Kleomenes of Sparta, named character, leader, age 56, , x 138, y 46 
 traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodDefender 1 , Austere 2 , Intelligent 1 
 ancillaries wrestler
@@ -3342,40 +3257,6 @@ unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
 unit		greek peasant				exp 1 armour 0 weapon_lvl 0
 unit		greek peasant				exp 1 armour 0 weapon_lvl 0
 
-character	Antigonos of Sparta, named character, age 33, , x 132, y 55 
-traits NaturalMilitarySkill 1 , Intelligent 1 , Drink 1 , Energetic 1 
-ancillaries mentor, poet
-army
-unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
-
-character	Eumenes of Sparta, named character, age 31, , x 154, y 61 
-traits Intelligent 1 , GoodAdministrator 3 
-ancillaries mentor, comedian
-army
-unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-
-character	Memnon of Sparta, named character, age 29, , x 161, y 45 
-traits Intelligent 2 , GoodAdministrator 2 , GoodTrader 2 , Drink 1 
-ancillaries merchant, mentor
-army
-unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		merc rhodian slingers				exp 1 armour 0 weapon_lvl 0
-
-character	Polydoros of Rhodes, admiral, age 36, , x 161, y 47 
-
-army
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
-unit		naval biremes				exp 1 armour 0 weapon_lvl 0
-
 character	Castor of Elis, diplomat, age 30, , x 155, y 61 
 traits GoodDiplomat 3 
 
@@ -3385,17 +3266,8 @@ ancillaries catamite
 
 
 character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 53, alive, never_a_leade
-character_record		Eunice, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
-character_record		Kyra, 	female, command 0, influence 0, management 0, subterfuge 0, age 26, alive, never_a_leader
-character_record		Cleon of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
-character_record		Doros of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
-character_record		Eugenius of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
-character_record		Nicanor of Sparta, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
-character_record		Hermine of Sparta, 	female, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
 
-relative 	Kleomenes of Sparta, 	Clymene,		Antigonos of Sparta,	Eumenes of Sparta,	Memnon of Sparta,	end
-relative 	Antigonos of Sparta, 	Eunice,		Doros of Sparta,	Nicanor of Sparta,	end
-relative 	Eumenes of Sparta, 	Kyra,		Eugenius of Sparta,	end
+relative 	Kleomenes of Sparta, 	Clymene,		end
 
 
 faction	numidia, balanced henry
@@ -4336,6 +4208,112 @@ settlement
 	plan_set default_set
 	faction_creator carthage
 }
+
+settlement
+{
+	level large_town
+	region Rhodos
+
+	year_founded 0
+	population 3900
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_wall
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Phrygia
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+settlement
+{
+	level large_town
+	region Aetolia
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+}
+
+character	sub_faction greek_cities, Antigonos, general, age 20, , x 132, y 55 
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Eumenes, general, age 20, , x 154, y 61 
+army
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction greek_cities, Memnon, general, age 20, , x 161, y 45 
+army
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		merc rhodian slingers				exp 1 armour 0 weapon_lvl 0
+unit		merc rhodian slingers				exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction britons, Brigomaglos, general, age 20, , x 36, y 142 
 
