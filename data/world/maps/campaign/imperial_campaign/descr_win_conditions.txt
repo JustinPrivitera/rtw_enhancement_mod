@@ -1,5 +1,5 @@
 romans_julii
-hold_regions Latium Africa Central_Gaul Macedonia Celtiberia Syria Nile_Delta
+hold_regions Latium Africa Central_Gaul Macedonia Hispania Syria Nile_Delta
 take_regions 50
 short_campaign outlive_factions
 gauls carthage macedon
