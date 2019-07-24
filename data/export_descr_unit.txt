@@ -979,7 +979,7 @@ stat_cost        2, 430, 130, 50, 70, 430
 ownership        dacia
  
  
-type             barb naked fanatics romans_brutii, gauls
+type             barb naked fanatics gauls
 dictionary       naked_fanatics_gaul      ; Naked Fanatics
 category         infantry
 class            heavy
