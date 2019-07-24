@@ -5,6 +5,7 @@ playable
 	romans_julii
 	romans_brutii
 	romans_scipii
+	romans_senate
 	egypt
 	seleucid
 	carthage
@@ -25,7 +26,6 @@ end
 unlockable
 end
 nonplayable
-	romans_senate
 	slave
 end
 
@@ -953,10 +953,6 @@ settlement
 	}
 	building
 	{
-		type core_building governors_villa
-	}
-	building
-	{
 		type port_buildings port
 	}
 }
@@ -969,7 +965,7 @@ settlement
 	year_founded 0
 	population 1400
 	plan_set default_set
-	faction_creator macedon
+	faction_creator gauls
 	building
 	{
 		type core_building governors_house
@@ -998,6 +994,10 @@ army
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+
+character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
+
+relative 	Akylos of Illyria, 	Harmonia,		end
 
 
 faction	romans_scipii, bureaucrat napoleon
@@ -1037,7 +1037,7 @@ settlement
 	}
 }
 
-character	Dionysios of Sparta, named character, leader, age 34, , x 106, y 44 
+character	Dionysios of Syracuse, named character, leader, age 34, , x 106, y 44 
 traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2 
 ancillaries brilliant_inventor, playwright
 army
@@ -1057,8 +1057,55 @@ character_record		Harmonia, 	female, command 0, influence 0, management 0, subte
 relative 	Dionysios of Sparta, 	Harmonia,		end
 
 
-; faction	romans_senate, comfortable napoleon
-; denari	5000
+faction	romans_senate, comfortable napoleon
+denari	5000
+settlement
+{
+	level large_town
+	region Transalpine_Gaul
+
+	year_founded 0
+	population 5500
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port_buildings port
+	}
+}
+
+character	Cleon of Massilia, named character, leader, age 34, , x 67, y 82 
+army
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
+
+character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
+
+relative 	Cleon of Massilia, 	Harmonia,		end
 
 
 faction	macedon, fortified napoleon
@@ -4016,25 +4063,6 @@ settlement
 
 settlement
 {
-	level town
-	region Transalpine_Gaul
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
 	level large_town
 	region Propontis
 
@@ -4354,12 +4382,6 @@ army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction greek_cities, Cleon, general, age 20, , x 67, y 82 
-
-army
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Damon, general, age 20, , x 160, y 73 
 
