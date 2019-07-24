@@ -668,42 +668,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Sicilia_Romanus
-
-	year_founded 0
-	population 3500
-	plan_set default_set
-	faction_creator romans_julii
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-}
-
-character	Cornelius Scipio, named character, age 54, , x 106, y 51 
-traits GoodCommander 2 , PoliticsSkill 2 , GoodAdministrator 2 , Austere 1 , GoodInfantryGeneral 1 
-ancillaries aged_retainer
-army
-unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-
 character	Julianus Scipio, named character, age 36, , x 102, y 68 
 traits GoodCommander 1 , NaturalMilitarySkill 3 , PoliticsSkill 1 , GoodRiskyAttacker 1 
 ancillaries drillmaster
@@ -711,14 +675,6 @@ army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-
-character	Quintus Scipio, named character, age 35, , x 106, y 50 
-traits NaturalMilitarySkill 1 , PoliticsSkill 1 , Intelligent 1 , Generous 1 
-army
-unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 2 armour 0 weapon_lvl 0
-unit		roman archer				exp 2 armour 0 weapon_lvl 0
-unit		roman velite				exp 0 armour 0 weapon_lvl 0
 
 character	Quintus Caecus, diplomat, age 26, , x 103, y 67 
 traits GoodDiplomat 2 
@@ -898,12 +854,10 @@ character_record		Lucius Scipio, 	male, command 0, influence 0, management 0, su
 character_record		Publius Scipio, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
 character_record		Metella, 	female, command 0, influence 0, management 0, subterfuge 0, age 52, alive, never_a_leader
 character_record		Antistia, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
-character_record		Crispina, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
 character_record		Placidia, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
 
 relative 	Cornelius Scipio, 	Metella,		Julianus Scipio,	Quintus Scipio,	Gaius Scipio,	Aulus Scipio,	end
 relative 	Julianus Scipio, 	Antistia,		Flavius Scipio,	Lucius Scipio,	end
-relative 	Quintus Scipio, 	Crispina,		Placidia,	Publius Scipio,	end
 relative 	Tiberius Brutus, 	Galla,		Aulus Brutus,	Amulius Brutus,	Vibius Brutus,	end
 relative 	Aulus Brutus, 	Hostia,		Paulina,	Titus Brutus,	Oppius Brutus,	end
 relative 	Amulius Brutus, 	Lucilla,		Cassius Brutus,	Cornelius Brutus,	end
@@ -4297,6 +4251,39 @@ settlement
 		type missiles practice_field
 	}
 }
+
+settlement
+{
+	level large_town
+	region Sicilia_Romanus
+
+	year_founded 0
+	population 3500
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+character	sub_faction greek_cities, Philaon, general, age 20, , x 106, y 51 
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Antigonos, general, age 20, , x 132, y 55 
 army
