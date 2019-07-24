@@ -801,7 +801,7 @@ unit				generic rebel general
 					
 rebel_type 			Calabrians	//romans_brutii
 category			peasant_revolt 
-chance				5					
+chance				6					
 description			Calabrians
 unit				roman peasant
 unit				roman velite
@@ -876,7 +876,7 @@ unit				generic rebel general
 					
 rebel_type 			Lucanians	//romans_brutii
 category			peasant_revolt 
-chance				4					
+chance				5					
 description			Lucanians
 unit				roman peasant
 unit				roman velite
