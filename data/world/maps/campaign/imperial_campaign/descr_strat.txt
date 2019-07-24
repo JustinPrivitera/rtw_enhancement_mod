@@ -676,12 +676,6 @@ unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 
-character	Quintus Caecus, diplomat, age 26, , x 103, y 67 
-traits GoodDiplomat 2 
-
-character	Aulus Ovidius, spy, age 20, , x 106, y 48 
-traits GoodSpy 3 
-
 character	Aulus Volesus, admiral, age 22, , x 101, y 64 
 
 army
@@ -709,19 +703,6 @@ army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 0 armour 0 weapon_lvl 0
-
-character	Marcus Attius, admiral, age 29, , x 120, y 64 
-
-army
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-
-character	Luca Antonius, spy, age 23, , x 116, y 62 
-traits GoodSpy 4 
-
-character	Caius Flaminius, diplomat, age 23, , x 112, y 63 
-traits GoodDiplomat 3 
 
 character	Amulius Brutus, named character, age 31, , x 116, y 64 
 traits GoodCommander 1 , NaturalMilitarySkill 2 , PoliticsSkill 1 , Intelligent 2 
@@ -766,17 +747,8 @@ unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman city militia				exp 0 armour 0 weapon_lvl 0
 unit		roman city militia				exp 0 armour 0 weapon_lvl 0
 
-character	Sextus Antio, diplomat, age 29, , x 93, y 78 
-traits GoodDiplomat 3 
-
-character	Decius Curtius, spy, age 29, , x 95, y 83 
+character	Decius Curtius, spy, age 29, , x 95, y 73 
 traits GoodSpy 4 
-
-character	Oppius Clausus, admiral, age 29, , x 86, y 78 
-
-army
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 character	Vibius Julius, named character, age 28, , x 88, y 81 
 traits GoodCommander 1 , PoliticsSkill 2 , GoodAdministrator 2 , MathematicsSkill 1 
@@ -3206,7 +3178,7 @@ ancillaries wrestler
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite spartan				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
 unit		greek peasant				exp 1 armour 0 weapon_lvl 0
 unit		greek peasant				exp 1 armour 0 weapon_lvl 0
