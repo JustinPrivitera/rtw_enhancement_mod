@@ -747,9 +747,6 @@ unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman city militia				exp 0 armour 0 weapon_lvl 0
 unit		roman city militia				exp 0 armour 0 weapon_lvl 0
 
-character	Decius Curtius, spy, age 29, , x 95, y 73 
-traits GoodSpy 4 
-
 character	Vibius Julius, named character, age 28, , x 88, y 81 
 traits GoodCommander 1 , PoliticsSkill 2 , GoodAdministrator 2 , MathematicsSkill 1 
 ancillaries merchant
@@ -781,9 +778,6 @@ unit		roman triarii				exp 3 armour 1 weapon_lvl 0
 unit		roman velite				exp 3 armour 1 weapon_lvl 0
 unit		roman hastati				exp 3 armour 1 weapon_lvl 0
 
-character	Flavius Nepos, diplomat, age 30, , x 96, y 69 
-traits GoodDiplomat 5 
-
 character	Servius Maxentius, named character, age 36, , x 94, y 69 
 traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 1 , Intelligent 1 
 ancillaries scribe_ancillary
@@ -793,6 +787,15 @@ unit		roman velite				exp 3 armour 1 weapon_lvl 0
 unit		roman hastati				exp 3 armour 0 weapon_lvl 0
 unit		roman princeps				exp 3 armour 1 weapon_lvl 0
 unit		roman triarii				exp 3 armour 0 weapon_lvl 0
+
+character	Flavius Nepos, diplomat, age 30, , x 96, y 69 
+traits GoodDiplomat 5 
+
+character	Lucius Flaminius, diplomat, age 30, , x 103, y 51 
+traits GoodDiplomat 5 
+
+character	Decius Curtius, spy, age 29, , x 95, y 73 
+traits GoodSpy 4 
 
 
 character_record		Amulius Julius, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
@@ -975,8 +978,20 @@ unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 
-character	Diodoros of Gela, diplomat, age 49, , x 105, y 44 
+character	Diodoros of Syracuse, diplomat, age 49, , x 104, y 44 
 traits GoodDiplomat 4 
+
+character	Deiphobus of Syracuse, diplomat, age 33, , x 141, y 49 
+traits GoodDiplomat 4 
+
+character	Pylaeus of Syracuse, spy, age 29, , x 105, y 46 
+traits GoodSpy 4 
+
+character	Harmatidas of Syracuse, admiral, age 20, , x 105, y 41 
+
+army
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
+unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
 
