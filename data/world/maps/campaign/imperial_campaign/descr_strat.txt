@@ -1159,6 +1159,37 @@ settlement
 
 settlement
 {
+	level city
+	region Attica
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
 	level large_town
 	region Peloponnesus
 
@@ -1218,6 +1249,16 @@ unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+
+character	Paramonos, named character, age 20, , x 144, y 52 
+traits GoodCommander 1 , GoodAdministrator 1 
+ancillaries tutor
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek archer				exp 0 armour 0 weapon_lvl 0
 
 character	Damasos, named character, age 20, , x 139, y 50 
 traits GoodAdministrator 1 
@@ -3863,37 +3904,6 @@ settlement
 
 settlement
 {
-	level city
-	region Attica
-
-	year_founded 0
-	population 3000
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type defenses stone_wall
-	}
-	building
-	{
-		type academic academy
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
 	level town
 	region Lycia
 
@@ -4363,14 +4373,6 @@ character	sub_faction greek_cities, Pyrrhus, general, age 20, , x 124, y 63
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction greek_cities, Demosthenes, general, age 20, , x 144, y 52 
-
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Iollas, general, age 20, , x 158, y 49 
