@@ -2971,33 +2971,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Colchis
-
-	year_founded 0
-	population 4500
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
 character	Artaxias, named character, leader, age 60, , x 227, y 87 
 traits GoodCommander 2 , PublicFaith 2 , Intelligent 1 , Bloodthirsty 1 
 ancillaries chief_eunuch
@@ -3009,17 +2982,7 @@ unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Rusa, named character, heir, age 35, , x 216, y 91 
-traits GoodCommander 1 , PublicFaith 1 , Intelligent 2 
-ancillaries galloper
-army
-unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		east peltast				exp 0 armour 0 weapon_lvl 0
-unit		east peltast				exp 0 armour 0 weapon_lvl 0
-unit		east archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-
-character	Aramu, named character, age 30, , x 220, y 87 
+character	Rusa, named character, heir, age 35, , x 220, y 87 
 traits Intelligent 2 , MathematicsSkill 1 , Drink 1 
 ancillaries freeman_clerk, drinking_companion
 army
@@ -3032,23 +2995,19 @@ character	Prusias, spy, age 20, , x 221, y 74
 traits GoodSpy 4 
 ancillaries courtesan
 
-character	Menua, diplomat, age 20, , x 216, y 89 
+character	Menua, diplomat, age 20, , x 224, y 87 
 traits GoodDiplomat 3 
 
 
 character_record		Zipoetes, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
 character_record		Aram, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
-character_record		Eminos, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
 character_record		Sarduri, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
 character_record		Erato, 	female, command 0, influence 0, management 0, subterfuge 0, age 51, alive, never_a_leader
 character_record		Karo, 	female, command 0, influence 0, management 0, subterfuge 0, age 34, alive, never_a_leader
-character_record		Pao, 	female, command 0, influence 0, management 0, subterfuge 0, age 26, alive, never_a_leader
 character_record		Arao, 	female, command 0, influence 0, management 0, subterfuge 0, age 11, alive, never_a_leader
-character_record		Hurriya, 	female, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
 
-relative 	Artaxias, 	Erato,		Rusa,	Aramu,	Zipoetes,	end
+relative 	Artaxias, 	Erato,		Rusa,	Zipoetes,	end
 relative 	Rusa, 	Karo,		Arao,	Aram,	Sarduri,	end
-relative 	Aramu, 	Pao,		Eminos,	Hurriya,	end
 
 
 faction	dacia, balanced stalin
@@ -4265,6 +4224,40 @@ settlement
 		type hinterland_roads roads
 	}
 }
+
+settlement
+{
+	level large_town
+	region Colchis
+
+	year_founded 0
+	population 4500
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
+character	sub_faction armenia, Aramu, general, age 20, , x 216, y 91 
+army
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east archer				exp 0 armour 0 weapon_lvl 0
+unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Metrophanes, general, age 20, , x 117, y 62 
 army
