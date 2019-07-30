@@ -2292,33 +2292,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Cappadocia
-
-	year_founded 0
-	population 2400
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type market trader
-	}
-}
-
 character	Mithradates, named character, leader, age 60, , x 190, y 80 
 traits GoodCommander 2 , PublicFaith 1 , Intelligent 2 
 ancillaries aged_retainer, chief_eunuch
@@ -2339,14 +2312,6 @@ unit		east cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 
-character	Herakles, named character, age 30, , x 192, y 68 
-traits NaturalMilitarySkill 1 , PublicFaith 1 , Intelligent 1 , MathematicsSkill 3 
-ancillaries freeman_clerk, merchant
-army
-unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		east peltast				exp 0 armour 0 weapon_lvl 0
-unit		east peltast				exp 0 armour 0 weapon_lvl 0
-
 character	Synges, spy, age 20, , x 188, y 81 
 traits GoodSpy 4 
 
@@ -2359,19 +2324,15 @@ army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 
-character_record		Dionysos, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
 character_record		Paerisades, 	male, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
-character_record		Rhescuporis, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
 character_record		Spartocus, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
 character_record		Laodice, 	female, command 0, influence 0, management 0, subterfuge 0, age 55, alive, never_a_leader
 character_record		Pythodoris, 	female, command 0, influence 0, management 0, subterfuge 0, age 30, alive, never_a_leader
-character_record		Antonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
 character_record		Dynamis, 	female, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
 character_record		Gepaepyris, 	female, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
 
-relative 	Mithradates, 	Laodice,		Pharnaces,	Herakles,	Spartocus,	end
+relative 	Mithradates, 	Laodice,		Pharnaces,	Spartocus,	end
 relative 	Pharnaces, 	Pythodoris,		Dynamis,	Gepaepyris,	Paerisades,	end
-relative 	Herakles, 	Antonia,		Dionysos,	Rhescuporis,	end
 
 
 faction	gauls, religious smith
@@ -4247,6 +4208,38 @@ settlement
 		type equestrian stables
 	}
 }
+
+settlement
+{
+	level large_town
+	region Cappadocia
+
+	year_founded 0
+	population 2400
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type market trader
+	}
+}
+
+character	sub_faction pontus, Herakles, general, age 20, , x 192, y 68 
+army
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
+unit		east peltast				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction thrace, Byzas, general, age 20, , x 156, y 100 
 army
