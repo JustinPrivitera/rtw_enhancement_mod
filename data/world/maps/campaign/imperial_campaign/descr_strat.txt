@@ -3705,33 +3705,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Tribus_Getae
-
-	year_founded 0
-	population 3500
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type equestrian stables
-	}
-}
-
 character	Sautes, named character, leader, age 60, , x 151, y 78 
 traits GoodCommander 2 , GoodAttacker 2 , Energetic 1 , Drink 2 
 ancillaries wine_steward, comedian, aged_retainer
@@ -3743,18 +3716,9 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
-character	Pytros, named character, heir, age 40, , x 156, y 100 
+character	Pytros, named character, heir, age 40, , x 150, y 83 
 traits GoodCommander 1 , Energetic 2 , Drink 2 , Intelligent 1 
 ancillaries wine_steward
-army
-unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
-unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-
-character	Byzas, named character, age 30, , x 150, y 83 
-traits NaturalMilitarySkill 1 , Intelligent 2 , Drink 1 
-ancillaries freeman_clerk, wise_man
 army
 unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
@@ -3770,19 +3734,14 @@ character	Satres, spy, age 20, , x 150, y 77
 traits GoodSpy 3 
 
 
-character_record		Bryzos, 	male, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
-character_record		Gaidres, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
 character_record		Iptacens, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
 character_record		Ziles, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
 character_record		Karia, 	female, command 0, influence 0, management 0, subterfuge 0, age 59, alive, never_a_leader
 character_record		Bendidora, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
-character_record		Cerzula, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
 character_record		Eptesyka, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
-character_record		Mokasokos, 	female, command 0, influence 0, management 0, subterfuge 0, age 5, alive, never_a_leader
 
-relative 	Sautes, 	Karia,		Pytros,	Byzas,	end
+relative 	Sautes, 	Karia,		Pytros,	end
 relative 	Pytros, 	Bendidora,		Ziles,	Iptacens,	Eptesyka,	end
-relative 	Byzas, 	Cerzula,		Gaidres,	Mokasokos,	Bryzos,	end
 
 
 faction	slave, balanced smith
@@ -4261,6 +4220,39 @@ settlement
 		type hinterland_farms farms
 	}
 }
+
+settlement
+{
+	level large_town
+	region Tribus_Getae
+
+	year_founded 0
+	population 3500
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type equestrian stables
+	}
+}
+
+character	sub_faction thrace, Byzas, general, age 20, , x 156, y 100 
+army
+unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction armenia, Aramu, general, age 20, , x 216, y 91 
 army
