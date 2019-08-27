@@ -1853,6 +1853,17 @@ settlement
 	}
 }
 
+settlement
+{
+	level village
+	region Galatia
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator gauls
+}
+
 character	Antiochus, named character, leader, age 60, , x 200, y 55 
 traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2 
 ancillaries heroic_saviour
@@ -1918,6 +1929,13 @@ unit		greek peasant				exp 0 armour 0 weapon_lvl 0
 unit		greek peasant				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 193, y 58 
+
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Borus, general, age 20, , x 174, y 67 
 
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
@@ -4153,29 +4171,6 @@ settlement
 settlement
 {
 	level town
-	region Gallaecia
-
-	year_founded 0
-	population 2000
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level town
 	region Lusitania
 
 	year_founded 0
@@ -4208,6 +4203,29 @@ settlement
 	building
 	{
 		type core_building governors_villa
+	}
+}
+
+settlement
+{
+	level town
+	region Gallaecia
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
 	}
 }
 
@@ -4411,14 +4429,6 @@ character	sub_faction gauls, Erbin, general, age 20, , x 83, y 84
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 unit		barb peasant slave				exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction gauls, Brennus, general, age 20, , x 174, y 67 
-
-army
-unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction gauls, Morirex, general, age 20, , x 99, y 104 
 
