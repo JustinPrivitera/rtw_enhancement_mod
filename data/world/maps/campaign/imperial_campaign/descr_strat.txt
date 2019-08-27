@@ -3201,29 +3201,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Libya
-
-	year_founded 0
-	population 2300
-	plan_set default_set
-	faction_creator egypt
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type temple_of_justice temple_of_justice_temple
-	}
-	building
-	{
-		type core_building governors_villa
-	}
-}
-
 character	Syphax, named character, leader, age 60, , x 55, y 41 
 traits GoodCommander 2 , Energetic 1 
 ancillaries desert_scout, astrologer
@@ -3241,17 +3218,6 @@ unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
-
-character	Muttines, named character, age 30, , x 166, y 2 
-traits NaturalMilitarySkill 1 , PublicFaith 3 , Intelligent 1 
-ancillaries desert_scout
-army
-unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
-unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 
 character	Oxynta, general, age 20, , x 57, y 42 
 
@@ -3278,17 +3244,12 @@ ancillaries dancer
 
 character_record		Adonibal, 	male, command 0, influence 0, management 0, subterfuge 0, age 14, alive, never_a_leader
 character_record		Balhanno, 	male, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
-character_record		Tabnit, 	male, command 0, influence 0, management 0, subterfuge 0, age 7, alive, never_a_leader
-character_record		Abdimilki, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
 character_record		Dahia, 	female, command 0, influence 0, management 0, subterfuge 0, age 51, alive, never_a_leader
 character_record		Kahina, 	female, command 0, influence 0, management 0, subterfuge 0, age 34, alive, never_a_leader
-character_record		Aglaurus, 	female, command 0, influence 0, management 0, subterfuge 0, age 25, alive, never_a_leader
 character_record		Pherusa, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
-character_record		Sotera, 	female, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
 
-relative 	Syphax, 	Dahia,		Gisgo,	Muttines,	Adonibal,	end
+relative 	Syphax, 	Dahia,		Gisgo,	Adonibal,	end
 relative 	Gisgo, 	Kahina,		Balhanno,	Pherusa,	end
-relative 	Muttines, 	Aglaurus,		Tabnit,	Sotera,	Abdimilki,	end
 
 
 faction	scythia, trader smith
@@ -4203,6 +4164,31 @@ settlement
 		type barracks muster_field
 	}
 }
+
+settlement
+{
+	level large_town
+	region Libya
+
+	year_founded 0
+	population 2300
+	plan_set default_set
+	faction_creator egypt
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type core_building governors_villa
+	}
+}
+
+character	sub_faction numidia, Muttines, general, age 20, , x 166, y 2 
+army
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction spain, Lucco, general, age 20, , x 8, y 72 
 army
