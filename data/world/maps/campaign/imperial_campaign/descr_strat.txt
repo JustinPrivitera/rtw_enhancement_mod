@@ -3572,7 +3572,7 @@ settlement
 	}
 }
 
-character	Viriathus, named character, leader, age 60, , x 20, y 87 
+character	Viriathus, named character, leader, age 60, , x 36, y 58 
 traits GoodCommander 1 , Energetic 1 , Intelligent 1 , Drink 1 
 ancillaries bard
 army
@@ -3583,7 +3583,7 @@ unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Caraunios, named character, heir, age 40, , x 8, y 72 
+character	Caraunios, named character, heir, age 40, , x 44, y 76 
 traits GoodCommander 3 , Energetic 1 , Intelligent 2 , Drink 1 
 ancillaries bodyguard
 army
@@ -3595,7 +3595,7 @@ unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Lucco, named character, age 30, , x 44, y 76 
+character	Lucco, named character, age 30, , x 8, y 72 
 traits Intelligent 2 
 ancillaries civilized_slave, beastmaster
 army
@@ -3605,7 +3605,7 @@ unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
 
-character	Matugenus, named character, age 25, , x 36, y 58 
+character	Matugenus, named character, age 25, , x 20, y 87 
 traits NaturalMilitarySkill 1 , Energetic 1 , Drink 1 , Bloodthirsty 1 
 ancillaries armourer
 army
@@ -3615,7 +3615,7 @@ unit		carthaginian city militia				exp 0 armour 0 weapon_lvl 0
 unit		spanish scutarii				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
-character	Segovax, diplomat, age 20, , x 9, y 72 
+character	Segovax, diplomat, age 20, , x 34, y 58 
 traits GoodDiplomat 3 
 
 character	Rhetogenes, spy, age 20, , x 43, y 78 
