@@ -1497,6 +1497,25 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Lycia
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 character	Hekhemmut, named character, leader, age 55, , x 178, y 19 
 traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2 
 ancillaries librarian, master_embalmer
@@ -1574,6 +1593,17 @@ unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian nubian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 0 armour 0 weapon_lvl 0
 unit		egyptian peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Philippos, general, age 20, , x 158, y 49 
+
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
+unit		merc rhodian slingers				exp 1 armour 0 weapon_lvl 0
 
 
 character_record		Ahmose, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
@@ -1789,6 +1819,33 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Regnum_Palmyrae
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
 character	Antiochus, named character, leader, age 60, , x 200, y 55 
 traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2 
 ancillaries heroic_saviour
@@ -1822,7 +1879,7 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peasant				exp 0 armour 0 weapon_lvl 0
 
-character	Demetrius, named character, age 26, , x 205, y 43 
+character	Demetrius, named character, age 26, , x 212, y 46 
 traits Intelligent 2 , Energetic 1 
 ancillaries mentor
 army
@@ -1854,6 +1911,13 @@ unit		greek peasant				exp 0 armour 0 weapon_lvl 0
 unit		greek peasant				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 193, y 58 
+
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+
+character	Xenokratis, general, age 20, , x 205, y 43 
 
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
@@ -3732,52 +3796,6 @@ settlement
 settlement
 {
 	level town
-	region Lycia
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Regnum_Palmyrae
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type market trader
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level town
 	region Cyrenaica
 
 	year_founded 0
@@ -4337,17 +4355,6 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction greek_cities, Iollas, general, age 20, , x 158, y 49 
-
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 1 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
-unit		merc rhodian slingers				exp 1 armour 0 weapon_lvl 0
-
 character	sub_faction greek_cities, Kallipos, general, age 20, , x 146, y 38 
 
 army
@@ -4427,15 +4434,6 @@ army
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction parthia, Xanthos, general, age 20, , x 212, y 46 
-
-army
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
-unit		east infantry				exp 2 armour 0 weapon_lvl 0
-unit		merc bedouin				exp 2 armour 0 weapon_lvl 0
 
 character	sub_faction parthia, Rashne, general, age 20, , x 240, y 25 
 
