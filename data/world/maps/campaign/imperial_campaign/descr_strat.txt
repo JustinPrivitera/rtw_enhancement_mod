@@ -1934,6 +1934,29 @@ settlement
 
 settlement
 {
+	level town
+	region Mauretania
+
+	year_founded 0
+	population 2700
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
 	level large_town
 	region Sicilia_Poeni
 
@@ -2126,6 +2149,16 @@ traits GoodDiplomat 2
 
 character	Hiram Tunis, diplomat, age 31, , x 80, y 43 
 traits GoodDiplomat 3 
+
+character	Gisgo, named character, age 35, , x 12, y 46 
+traits GoodCommander 2 , Energetic 1 , Intelligent 1 , Drink 1 
+ancillaries merchant
+army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
+unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 0
 
 
 character_record		Bomilkar, 	male, command 0, influence 0, management 0, subterfuge 0, age 13, alive, never_a_leader
@@ -3162,29 +3195,6 @@ settlement
 settlement
 {
 	level town
-	region Mauretania
-
-	year_founded 0
-	population 2700
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level town
 	region Gaetulia
 
 	year_founded 0
@@ -3210,24 +3220,17 @@ unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian slinger				exp 0 armour 0 weapon_lvl 0
 
-character	Gisgo, named character, heir, age 35, , x 12, y 46 
-traits GoodCommander 2 , Energetic 1 , Intelligent 1 , Drink 1 
-ancillaries merchant
-army
-unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
-
 character	Oxynta, general, age 20, , x 57, y 42 
 
 army
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	Juva, general, age 20, , x 38, y 18 
-
+character	Juva, named character, heir, age 35, , x 38, y 18 
+traits GoodCommander 2 , Energetic 1 , Intelligent 1 , Drink 1 
+ancillaries merchant
 army
+unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -3248,8 +3251,8 @@ character_record		Dahia, 	female, command 0, influence 0, management 0, subterfu
 character_record		Kahina, 	female, command 0, influence 0, management 0, subterfuge 0, age 34, alive, never_a_leader
 character_record		Pherusa, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
 
-relative 	Syphax, 	Dahia,		Gisgo,	Adonibal,	end
-relative 	Gisgo, 	Kahina,		Balhanno,	Pherusa,	end
+relative 	Syphax, 	Dahia,		Juva,	Adonibal,	end
+relative 	Juva, 	Kahina,		Balhanno,	Pherusa,	end
 
 
 faction	scythia, trader smith
