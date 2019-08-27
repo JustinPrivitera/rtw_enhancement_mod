@@ -1516,6 +1516,29 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Coele_Syria
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
 character	Hekhemmut, named character, leader, age 55, , x 178, y 19 
 traits GoodCommander 1 , NaturalMilitarySkill 1 , PublicFaith 2 , MathematicsSkill 2 
 ancillaries librarian, master_embalmer
@@ -1605,6 +1628,13 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		merc cretan archers				exp 1 armour 0 weapon_lvl 0
 unit		merc rhodian slingers				exp 1 armour 0 weapon_lvl 0
 
+character	Akhaenniut, general, age 20, , x 205, y 43 
+
+army
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+
 
 character_record		Ahmose, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
 character_record		Meryre, 	male, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
@@ -1658,29 +1688,6 @@ settlement
 	building
 	{
 		type port_buildings port
-	}
-}
-
-settlement
-{
-	level town
-	region Coele_Syria
-
-	year_founded 0
-	population 1500
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
 	}
 }
 
@@ -1911,13 +1918,6 @@ unit		greek peasant				exp 0 armour 0 weapon_lvl 0
 unit		greek peasant				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 193, y 58 
-
-army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek peasant				exp 0 armour 0 weapon_lvl 0
-unit		greek peasant				exp 0 armour 0 weapon_lvl 0
-
-character	Xenokratis, general, age 20, , x 205, y 43 
 
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
