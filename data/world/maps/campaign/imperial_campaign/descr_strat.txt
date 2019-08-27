@@ -1754,6 +1754,41 @@ settlement
 	}
 }
 
+settlement
+{
+	level city
+	region Elymais
+
+	year_founded 0
+	population 6300
+	plan_set default_set
+	faction_creator macedon
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type missiles practice_field
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+}
+
 character	Antiochus, named character, leader, age 60, , x 200, y 55 
 traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 2 , GoodAdministrator 2 
 ancillaries heroic_saviour
@@ -1792,6 +1827,18 @@ traits Intelligent 2 , Energetic 1
 ancillaries mentor
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
+unit		greek peasant				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
+character	Basileios, named character, age 35, , x 253, y 50 
+traits PublicFaith 2 , GoodAdministrator 1 
+ancillaries merchant
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peasant				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
@@ -2129,41 +2176,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level city
-	region Elymais
-
-	year_founded 0
-	population 6300
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_palace
-	}
-	building
-	{
-		type missiles practice_field
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-	building
-	{
-		type hinterland_roads roads
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-}
-
 character	Arsaces, named character, leader, age 60, , x 252, y 78 
 traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 2 , Austere 1 
 ancillaries foodtaster
@@ -2183,22 +2195,10 @@ unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 
-character	Bagabigna, named character, age 35, , x 253, y 50 
-traits PublicFaith 2 , GoodAdministrator 1 
-ancillaries priest_of_Zoroastra
-army
-unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east slinger				exp 0 armour 0 weapon_lvl 0
-unit		east slinger				exp 0 armour 0 weapon_lvl 0
-
 character	Otanes, diplomat, age 20, , x 252, y 81 
 traits GoodDiplomat 3 
 
-character	Skunxa, spy, age 20, , x 251, y 50 
+character	Skunxa, spy, age 20, , x 229, y 69 
 traits GoodSpy 2 
 ancillaries dancer
 
@@ -2209,7 +2209,7 @@ character_record		Roxanna, 	female, command 0, influence 0, management 0, subter
 character_record		Ariyamna, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
 character_record		Bardiya, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
 
-relative 	Arsaces, 	Roxanna,		Ardumanish,	Bagabigna,	end
+relative 	Arsaces, 	Roxanna,		Ardumanish,	end
 relative 	Ardumanish, 	Ariyamna,		Achaemenes,	Arses,	Bardiya,	end
 
 
