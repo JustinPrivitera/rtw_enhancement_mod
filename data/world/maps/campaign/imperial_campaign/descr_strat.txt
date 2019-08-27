@@ -3487,7 +3487,7 @@ denari	3000
 settlement
 {
 	level large_town
-	region Gallaecia
+	region Hispania
 
 	year_founded 0
 	population 2500
@@ -3510,7 +3510,7 @@ settlement
 settlement
 {
 	level large_town
-	region Lusitania
+	region Taraconenis
 
 	year_founded 0
 	population 2200
@@ -3533,7 +3533,7 @@ settlement
 settlement
 {
 	level town
-	region Hispania
+	region Gallaecia
 
 	year_founded 0
 	population 2000
@@ -3556,7 +3556,7 @@ settlement
 settlement
 {
 	level town
-	region Taraconenis
+	region Lusitania
 
 	year_founded 0
 	population 1500
