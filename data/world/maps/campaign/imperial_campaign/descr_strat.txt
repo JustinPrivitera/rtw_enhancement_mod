@@ -2164,29 +2164,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Tribus_Sakae
-
-	year_founded 0
-	population 4600
-	plan_set default_set
-	faction_creator parthia
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type equestrian stables
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
-
 character	Arsaces, named character, leader, age 60, , x 252, y 78 
 traits GoodCommander 2 , NaturalMilitarySkill 1 , PublicFaith 1 , GoodAdministrator 2 , Austere 1 
 ancillaries foodtaster
@@ -2218,22 +2195,6 @@ unit		east horse archer				exp 0 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 unit		east slinger				exp 0 armour 0 weapon_lvl 0
 
-character	Phraotes, named character, age 30, , x 248, y 152 
-traits GoodAdministrator 2 , Intelligent 2 , GoodCavalryGeneral 1 
-ancillaries merchant
-army
-unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east horse archer				exp 0 armour 0 weapon_lvl 0
-unit		east peasant				exp 0 armour 0 weapon_lvl 0
-
-character	Sherh, admiral, age 20, , x 241, y 134 
-
-army
-unit		naval biremes				exp 0 armour 0 weapon_lvl 0
-
 character	Otanes, diplomat, age 20, , x 252, y 81 
 traits GoodDiplomat 3 
 
@@ -2243,16 +2204,13 @@ ancillaries dancer
 
 
 character_record		Arses, 	male, command 0, influence 0, management 0, subterfuge 0, age 12, alive, never_a_leader
-character_record		Thuxra, 	male, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
 character_record		Achaemenes, 	male, command 0, influence 0, management 0, subterfuge 0, age 15, alive, never_a_leader
 character_record		Roxanna, 	female, command 0, influence 0, management 0, subterfuge 0, age 58, alive, never_a_leader
 character_record		Ariyamna, 	female, command 0, influence 0, management 0, subterfuge 0, age 35, alive, never_a_leader
-character_record		Nabunaita, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
 character_record		Bardiya, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
 
-relative 	Arsaces, 	Roxanna,		Ardumanish,	Bagabigna,	Phraotes,	end
+relative 	Arsaces, 	Roxanna,		Ardumanish,	Bagabigna,	end
 relative 	Ardumanish, 	Ariyamna,		Achaemenes,	Arses,	Bardiya,	end
-relative 	Phraotes, 	Nabunaita,		Thuxra,	end
 
 
 faction	pontus, trader napoleon
@@ -3423,6 +3381,29 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Tribus_Sakae
+
+	year_founded 0
+	population 4600
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+}
+
 character	Zipoetes, named character, leader, age 50, , x 157, y 106 
 traits GoodCommander 2 , Energetic 2 , Intelligent 1 , Drink 1 , Bloodthirsty 2 
 ancillaries armourer
@@ -3454,6 +3435,17 @@ unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
 
+character	Prusias, named character, age 30, , x 248, y 152 
+traits GoodAdministrator 2 , Intelligent 2 , GoodCavalryGeneral 1 
+ancillaries merchant
+army
+unit		barb chieftain cavalry early scythian				exp 1 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb horse archers scythian				exp 0 armour 0 weapon_lvl 0
+unit		barb archer scythian				exp 0 armour 0 weapon_lvl 0
+
 character	Phillipos, general, age 20, , x 181, y 140 
 
 army
@@ -3476,10 +3468,13 @@ character_record		Afina, 	female, command 0, influence 0, management 0, subterfu
 character_record		Branka, 	female, command 0, influence 0, management 0, subterfuge 0, age 26, alive, never_a_leader
 character_record		Devnet, 	female, command 0, influence 0, management 0, subterfuge 0, age 22, alive, never_a_leader
 character_record		Hestia, 	female, command 0, influence 0, management 0, subterfuge 0, age 9, alive, never_a_leader
+character_record		Trdat, 	male, command 0, influence 0, management 0, subterfuge 0, age 4, alive, never_a_leader
+character_record		Birkita, 	female, command 0, influence 0, management 0, subterfuge 0, age 24, alive, never_a_leader
 
 relative 	Zipoetes, 	Serapia,		Partatua,	Belnirari,	Devnet,	Palacus,	end
 relative 	Partatua, 	Afina,		Ziaelas,	Hestia,	end
 relative 	Belnirari, 	Branka,		Madyes,	Ara,	end
+relative 	Prusias, 	Birkita,		Trdat,	end
 
 
 faction	spain, fortified mao
