@@ -910,7 +910,7 @@ settlement
 }
 
 character	Meliboeus of Illyria, named character, leader, age 26, , x 118, y 75 
-traits GoodCommander 2 , PublicFaith 1 , GoodAdministrator 1 , Intelligent 1 
+traits GoodCommander 1 , PublicFaith 1 , GoodAdministrator 1 , Intelligent 1 
 ancillaries drillmaster
 army
 unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
@@ -926,13 +926,13 @@ unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 
-; character	Aegon of Illyria, named character, heir, age 45, , x 105, y 90 
-; traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodRiskyAttacker 1
-; ancillaries shieldbearer
-; army
-; unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
-; unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
-; unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+character	Aegon of Illyria, named character, age 17, , x 122, y 73 
+traits GoodCommander 1 , NaturalMilitarySkill 1
+ancillaries shieldbearer
+army
+unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 
 character	Empedocles of Illyria, diplomat, age 30, , x 116, y 75 
 traits GoodDiplomat 5 
@@ -940,13 +940,15 @@ traits GoodDiplomat 5
 character	Epicurus of Illyria, diplomat, age 30, , x 101, y 90 
 traits GoodDiplomat 5 
 
-character	Iobates of Illyria, spy, age 30, , x 122, y 73 
+character	Iobates of Illyria, spy, age 30, , x 123, y 77 
 traits GoodSpy 4 
 
 character_record		Philomela, 	female, command 0, influence 0, management 0, subterfuge 0, age 20, alive, never_a_leader
 character_record		Laogonus of Illyria, 	male, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Cymodoce, 	female, command 0, influence 0, management 0, subterfuge 0, age 38, alive, never_a_leader
 
 relative 	Meliboeus of Illyria, 	Philomela,		Laogonus of Illyria,	end
+relative	Pleistarchos of Illyria,	Cymodoce,	Aegon of Illyria,	end
 
 
 faction	romans_scipii, bureaucrat napoleon
