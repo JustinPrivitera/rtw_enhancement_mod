@@ -924,6 +924,15 @@ unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 
+character	Empedocles of Illyria, diplomat, age 30, , x 116, y 75 
+traits GoodDiplomat 5 
+
+character	Epicurus of Illyria, diplomat, age 30, , x 101, y 90 
+traits GoodDiplomat 5 
+
+character	Iobates of Illyria, spy, age 30, , x 122, y 73 
+traits GoodSpy 4 
+
 character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 28, alive, never_a_leader
 
 relative 	Akylos of Illyria, 	Harmonia,		end
