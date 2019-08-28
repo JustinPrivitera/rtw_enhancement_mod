@@ -2830,10 +2830,10 @@ army
 unit		warband spear german				exp 0 armour 0 weapon_lvl 0
 unit		warband spear german				exp 0 armour 0 weapon_lvl 0
 
-character	Ariovistus, spy, age 20, , x 77, y 110 
+character	Ariovistus, spy, age 20, , x 75, y 127 
 traits GoodSpy 1 
 
-character	Ricgard, diplomat, age 20, , x 89, y 117 
+character	Ricgard, diplomat, age 20, , x 93, y 131 
 traits GoodDiplomat 1 
 
 
