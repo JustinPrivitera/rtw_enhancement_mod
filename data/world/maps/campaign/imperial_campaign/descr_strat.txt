@@ -2731,48 +2731,6 @@ settlement
 
 settlement
 {
-	level large_town
-	region Agri_Decumates
-
-	year_founded 0
-	population 2800
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
-	level town
-	region Germania_Superior
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
 	level town
 	region Germania_Inferior
 
@@ -2805,6 +2763,28 @@ settlement
 	}
 }
 
+settlement
+{
+	level village
+	region Tribus_Saxones
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator gauls
+}
+
+settlement
+{
+	level village
+	region Locus_Gothi
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator gauls
+}
+
 character	Arminius, named character, leader, age 60, , x 95, y 130 
 traits GoodCommander 2 , Intelligent 2 , PublicFaith 1 
 ancillaries bodyguard, civilized_slave
@@ -2816,7 +2796,7 @@ unit		warband spear german				exp 1 armour 0 weapon_lvl 0
 unit		warband spear german				exp 1 armour 0 weapon_lvl 0
 unit		barb screeching women german				exp 0 armour 0 weapon_lvl 0
 
-character	Ariogaisus, named character, heir, age 40, , x 79, y 114 
+character	Ariogaisus, named character, heir, age 40, , x 87, y 139 
 traits GoodCommander 2 , Intelligent 1 , Energetic 1 , GoodAmbusher 1 
 ancillaries bard, beastmaster
 army
@@ -2844,7 +2824,7 @@ unit		warband spear german				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
 
-character	Malorix, general, age 20, , x 88, y 117 
+character	Malorix, general, age 20, , x 111, y 136 
 
 army
 unit		warband spear german				exp 0 armour 0 weapon_lvl 0
@@ -3875,28 +3855,6 @@ settlement
 settlement
 {
 	level village
-	region Tribus_Saxones
-
-	year_founded 0
-	population 800
-	plan_set default_set
-	faction_creator gauls
-}
-
-settlement
-{
-	level village
-	region Locus_Gothi
-
-	year_founded 0
-	population 800
-	plan_set default_set
-	faction_creator gauls
-}
-
-settlement
-{
-	level village
 	region Epirus
 
 	year_founded 0
@@ -4229,6 +4187,48 @@ settlement
 	}
 }
 
+settlement
+{
+	level large_town
+	region Agri_Decumates
+
+	year_founded 0
+	population 2800
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level town
+	region Germania_Superior
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
 character	sub_faction numidia, Muttines, general, age 20, , x 166, y 2 
 army
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
@@ -4323,13 +4323,13 @@ unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction germans, Adalwolf, general, age 20, , x 87, y 139 
+character	sub_faction germans, Adalwolf, general, age 20, , x 79, y 114 
 
 army
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 
-character	sub_faction germans, Gunderic, general, age 20, , x 111, y 136 
+character	sub_faction germans, Gunderic, general, age 20, , x 88, y 117 
 
 army
 unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
