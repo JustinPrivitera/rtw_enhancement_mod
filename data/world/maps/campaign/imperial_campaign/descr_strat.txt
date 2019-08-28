@@ -948,7 +948,7 @@ character_record		Laogonus of Illyria, 	male, command 0, influence 0, management
 character_record		Cymodoce, 	female, command 0, influence 0, management 0, subterfuge 0, age 38, alive, never_a_leader
 
 relative 	Meliboeus of Illyria, 	Philomela,		Laogonus of Illyria,	end
-relative	Pleistarchos of Illyria,	Cymodoce,	Aegon of Illyria,	end
+relative	Pleistarchos of Illyria,	Cymodoce,	Meliboeus of Illyria,	Aegon of Illyria,	end
 
 
 faction	romans_scipii, bureaucrat napoleon
