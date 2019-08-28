@@ -2538,29 +2538,6 @@ settlement
 settlement
 {
 	level town
-	region Aquitania
-
-	year_founded 0
-	population 1400
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type missiles practice_field
-	}
-}
-
-settlement
-{
-	level town
 	region Armorica
 
 	year_founded 0
@@ -2579,11 +2556,30 @@ settlement
 
 settlement
 {
-	level town
-	region Narbonensis
+	level large_town
+	region Agri_Decumates
 
 	year_founded 0
-	population 1300
+	population 2800
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level town
+	region Germania_Superior
+
+	year_founded 0
+	population 1200
 	plan_set default_set
 	faction_creator gauls
 	building
@@ -2592,8 +2588,68 @@ settlement
 	}
 	building
 	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
 		type barracks muster_field
 	}
+}
+
+settlement
+{
+	level town
+	region Lugdinensis
+
+	year_founded 0
+	population 1200
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type defenses wooden_pallisade
+	}
+	building
+	{
+		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level village
+	region Pannonia
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator gauls
+}
+
+settlement
+{
+	level village
+	region Noricum
+
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator gauls
+}
+
+settlement
+{
+	level village
+	region Boihaemum
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator gauls
 }
 
 character	Brennus, named character, leader, age 52, , x 66, y 106 
@@ -2637,25 +2693,12 @@ unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
 
-character	Voteporix of Alesia, general, age 20, , x 57, y 84 
-traits NaturalMilitarySkill 1 , Energetic 1 
-ancillaries bodyguard
-army
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-
 character	Casticos of Vesontio, general, age 20, , x 46, y 113 
 
 army
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 
-character	Maglocunus of Lemonum, general, age 20, , x 47, y 99 
-
-army
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-
-character	Vindex, named character, age 32, , x 58, y 82 
+character	Vindex, named character, age 32, , x 66, y 91 
 traits NaturalMilitarySkill 2 , Drink 1 , Bloodthirsty 1 
 ancillaries galloper
 army
@@ -2673,6 +2716,47 @@ unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast gaul				exp 0 armour 0 weapon_lvl 0
+
+character	Adcobrovatus, general, age 20, , x 79, y 114 
+
+army
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+
+character	Gorteyrn, general, age 20, , x 88, y 117 
+
+army
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
+
+character	Diviciacus, general, age 20, , x 116, y 101 
+
+army
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
+
+character	Brycham, general, age 20, , x 111, y 113 
+
+army
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
+
+character	Cintugnatus, general, age 20, , x 66, y 93 
+
+army
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
+
+character	Morirex, general, age 20, , x 99, y 104 
+
+army
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
 
 character	Bolgios of Lemonum, admiral, age 30, , x 45, y 117 
 
@@ -3747,29 +3831,6 @@ settlement
 
 settlement
 {
-	level town
-	region Lugdinensis
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
-
-settlement
-{
 	level large_town
 	region Propontis
 
@@ -3877,34 +3938,12 @@ settlement
 settlement
 {
 	level village
-	region Pannonia
-
-	year_founded 0
-	population 800
-	plan_set default_set
-	faction_creator gauls
-}
-
-settlement
-{
-	level village
 	region Bithynia
 
 	year_founded 0
 	population 900
 	plan_set default_set
 	faction_creator macedon
-}
-
-settlement
-{
-	level village
-	region Noricum
-
-	year_founded 0
-	population 900
-	plan_set default_set
-	faction_creator gauls
 }
 
 settlement
@@ -4187,32 +4226,14 @@ settlement
 	}
 }
 
-settlement
-{
-	level large_town
-	region Agri_Decumates
-
-	year_founded 0
-	population 2800
-	plan_set default_set
-	faction_creator gauls
-	building
-	{
-		type core_building governors_villa
-	}
-	building
-	{
-		type barracks muster_field
-	}
-}
 
 settlement
 {
 	level town
-	region Germania_Superior
+	region Aquitania
 
 	year_founded 0
-	population 1200
+	population 1400
 	plan_set default_set
 	faction_creator gauls
 	building
@@ -4225,9 +4246,41 @@ settlement
 	}
 	building
 	{
+		type missiles practice_field
+	}
+}
+
+settlement
+{
+	level town
+	region Narbonensis
+
+	year_founded 0
+	population 1300
+	plan_set default_set
+	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
 		type barracks muster_field
 	}
 }
+
+character	sub_faction gauls, Voteporix, general, age 20, , x 57, y 84 
+
+army
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+
+character	sub_faction gauls, Maglocunus, general, age 20, , x 47, y 99 
+
+army
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction numidia, Muttines, general, age 20, , x 166, y 2 
 army
@@ -4323,19 +4376,6 @@ unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian javelinmen				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction germans, Adalwolf, general, age 20, , x 79, y 114 
-
-army
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-
-character	sub_faction germans, Gunderic, general, age 20, , x 88, y 117 
-
-army
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 1 armour 0 weapon_lvl 0
-
 character	sub_faction germans, Adalmun, general, age 20, , x 135, y 139 
 
 army
@@ -4396,13 +4436,6 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		merc thracian				exp 0 armour 0 weapon_lvl 0
 
-character	sub_faction dacia, Dicomes, general, age 20, , x 116, y 101 
-
-army
-unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
-unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
-unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
-
 character	sub_faction dacia, Dapyx, general, age 20, , x 149, y 129 
 
 army
@@ -4410,32 +4443,10 @@ unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 1 armour 0 weapon_lvl 0
 
-character	sub_faction gauls, Brycham, general, age 20, , x 111, y 113 
-
-army
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 1 armour 0 weapon_lvl 0
-
-character	sub_faction gauls, Diviciacus, general, age 20, , x 66, y 93 
-
-army
-unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
-unit		barb cavalry slave				exp 0 armour 0 weapon_lvl 0
-
 character	sub_faction gauls, Erbin, general, age 20, , x 83, y 84 
 
 army
 unit		barb infantry slave				exp 0 armour 0 weapon_lvl 0
-unit		barb peasant slave				exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction gauls, Morirex, general, age 20, , x 99, y 104 
-
-army
-unit		barb naked fanatics slave				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 1 armour 0 weapon_lvl 0
 unit		barb peasant slave				exp 0 armour 0 weapon_lvl 0
 
 character	sub_faction parthia, Caspar, general, age 20, , x 241, y 82 
