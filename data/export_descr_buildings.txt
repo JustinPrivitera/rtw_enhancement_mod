@@ -527,11 +527,11 @@ building equestrian
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                recruit "barb wardogs gaul"  0  requires factions { gauls, romans_brutii, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
-                recruit "barb wardogs scythian"  0  requires factions { scythia, } 
+                ;recruit "barb wardogs briton"  0  requires factions {  britons, } 
+                ;recruit "barb wardogs dacian"  0  requires factions { dacia, } 
+                ;recruit "barb wardogs gaul"  0  requires factions { gauls, romans_brutii, } 
+                ;recruit "barb wardogs german"  0  requires factions { germans, } 
+                ;recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, } 
                 recruit "numidian cavalry"  0  requires factions { numidia, } 
                 recruit "east cavalry"  0  requires factions { pontus, } 
@@ -562,11 +562,11 @@ building equestrian
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                recruit "barb wardogs gaul"  0  requires factions { gauls, romans_brutii, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
-                recruit "barb wardogs scythian"  0  requires factions { scythia, } 
+                ;recruit "barb wardogs briton"  0  requires factions {  britons, } 
+                ;recruit "barb wardogs dacian"  0  requires factions { dacia, } 
+                ;recruit "barb wardogs gaul"  0  requires factions { gauls, romans_brutii, } 
+                ;recruit "barb wardogs german"  0  requires factions { germans, } 
+                ;recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, romans_brutii, } 
                 recruit "barb noble cavalry german"  0  requires factions { germans, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
@@ -612,11 +612,11 @@ building equestrian
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                recruit "barb wardogs gaul"  0  requires factions { gauls, romans_brutii, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
-                recruit "barb wardogs scythian"  0  requires factions { scythia, } 
+                ;recruit "barb wardogs briton"  0  requires factions {  britons, } 
+                ;recruit "barb wardogs dacian"  0  requires factions { dacia, } 
+                ;recruit "barb wardogs gaul"  0  requires factions { gauls, romans_brutii, } 
+                ;recruit "barb wardogs german"  0  requires factions { germans, } 
+                ;recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, romans_brutii, } 
                 recruit "barb noble cavalry german"  0  requires factions { germans, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
@@ -675,11 +675,11 @@ building equestrian
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                recruit "barb wardogs gaul"  0  requires factions { gauls, romans_brutii, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
-                recruit "barb wardogs scythian"  0  requires factions { scythia, } 
+                ;recruit "barb wardogs briton"  0  requires factions {  britons, } 
+                ;recruit "barb wardogs dacian"  0  requires factions { dacia, } 
+                ;recruit "barb wardogs gaul"  0  requires factions { gauls, romans_brutii, } 
+                ;recruit "barb wardogs german"  0  requires factions { germans, } 
+                ;recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, romans_brutii, } 
                 recruit "barb noble cavalry german"  0  requires factions { germans, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
