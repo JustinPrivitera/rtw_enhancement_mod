@@ -2566,6 +2566,7 @@ skeleton			fs_spearman, fs_swordsman									; combat spear
 indiv_range			40
 texture				macedon, data/models_unit/textures/unit_greek_militia_hoplite_macedon.tga
 texture				seleucid, data/models_unit/textures/unit_greek_militia_hoplite_seleucid.tga
+texture				romans_brutii, data/models_unit/textures/unit_greek_militia_hoplite_seleucid.tga
 texture				greek_cities, data/models_unit/textures/unit_greek_militia_hoplite_greek.tga
 texture				romans_senate, data/models_unit/textures/unit_greek_militia_hoplite_greek.tga
 texture				thrace, data/models_unit/textures/unit_greek_militia_hoplite_thrace.tga
@@ -2581,6 +2582,7 @@ model_sprite		romans_scipii, 60.0, data/sprites/thrace_greek_hoplite_militia_spr
 model_sprite		greek_cities, 60.0, data/sprites/greek_cities_greek_hoplite_militia_sprite.spr
 model_sprite		romans_senate, 60.0, data/sprites/greek_cities_greek_hoplite_militia_sprite.spr
 model_sprite		seleucid, 60.0, data/sprites/seleucid_greek_hoplite_militia_sprite.spr
+model_sprite		romans_brutii, 60.0, data/sprites/seleucid_greek_hoplite_militia_sprite.spr
 model_sprite		macedon, 60.0, data/sprites/macedon_greek_hoplite_militia_sprite.spr
 model_tri			400, 0.5f, 0.5f, 0.5f
 
