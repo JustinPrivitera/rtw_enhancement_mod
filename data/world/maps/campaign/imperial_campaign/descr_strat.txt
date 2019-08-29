@@ -930,7 +930,7 @@ unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 
 character	Aegon of Illyria, named character, age 17, , x 122, y 73 
 traits GoodCommander 1 , NaturalMilitarySkill 1
-ancillaries shieldbearer
+ancillaries swordbearer
 army
 unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
@@ -991,19 +991,19 @@ settlement
 	}
 }
 
-character	Dionysios of Syracuse, named character, leader, age 34, , x 106, y 44 
-traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2 
-ancillaries brilliant_inventor, playwright
+character	Hiero of Syracuse, named character, leader, age 38, , x 106, y 44 
+traits GoodCommander 2 , Intelligent 1 , GoodAdministrator 2 
+ancillaries brilliant_inventor, archimedes;, tax_farmer
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 
-character	Diodoros of Syracuse, diplomat, age 49, , x 104, y 44 
+character	Anaximander of Syracuse, diplomat, age 49, , x 104, y 44 
 traits GoodDiplomat 4 
 
 character	Deiphobus of Syracuse, diplomat, age 33, , x 141, y 49 
@@ -1019,8 +1019,11 @@ unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
 character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
+character_record		Gelo of Syracuse, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
+character_record		Demetria, 	female, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
+character_record		Eurycleia, 	female, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
 
-relative 	Dionysios of Sparta, 	Harmonia,		end
+relative 	Hiero of Syracuse, 	Harmonia,		Gelo of Syracuse,	Demetria,	Eurycleia,	end
 
 
 faction	romans_senate, comfortable napoleon
