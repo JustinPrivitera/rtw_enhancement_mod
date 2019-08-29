@@ -270,7 +270,7 @@ building barracks
                 recruit "numidian javelinmen"  0  requires factions { numidia, } 
                 recruit "east infantry"  0  requires factions { eastern, } 
                 recruit "egyptian nubian spearmen"  0  requires factions { egyptian, } 
-                recruit "greek hoplite militia"  0  requires factions { greek, } 
+                recruit "greek hoplite militia"  0  requires factions { greek, romans_brutii, } 
                 recruit "roman city militia"  0  requires factions { roman, } 
             }
             construction  2 
@@ -305,7 +305,7 @@ building barracks
                 recruit "east infantry"  0  requires factions { eastern, } 
                 recruit "egyptian nubian spearmen"  0  requires factions { egyptian, } 
                 recruit "egyptian nile infantry"  0  requires factions { egyptian, } 
-                recruit "greek hoplite militia"  0  requires factions { greek, } 
+                recruit "greek hoplite militia"  0  requires factions { greek, romans_brutii, } 
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, romans_senate, romans_scipii, } 
@@ -354,7 +354,7 @@ building barracks
                 recruit "egyptian nubian spearmen"  0  requires factions { egyptian, } 
                 recruit "egyptian nile infantry"  0  requires factions { egyptian, } 
                 recruit "egyptian infantry"  0  requires factions { egyptian, } 
-                recruit "greek hoplite militia"  0  requires factions { greek, } 
+                recruit "greek hoplite militia"  0  requires factions { greek, romans_brutii, } 
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  0  requires factions { greek_cities, romans_senate, romans_scipii, } 
@@ -412,7 +412,7 @@ building barracks
                 recruit "egyptian nile infantry"  0  requires factions { egyptian, } 
                 recruit "egyptian infantry"  0  requires factions { egyptian, } 
                 recruit "egyptian elite guards"  0  requires factions { egyptian, } 
-                recruit "greek hoplite militia"  0  requires factions { greek, } 
+                recruit "greek hoplite militia"  0  requires factions { greek, romans_brutii, } 
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  1  requires factions { greek_cities, romans_senate, romans_scipii, } 
@@ -478,7 +478,7 @@ building barracks
                 recruit "egyptian nile infantry"  0  requires factions { egyptian, } 
                 recruit "egyptian infantry"  0  requires factions { egyptian, } 
                 recruit "egyptian elite guards"  0  requires factions { egyptian, } 
-                recruit "greek hoplite militia"  0  requires factions { greek, } 
+                recruit "greek hoplite militia"  0  requires factions { greek, romans_brutii, } 
                 recruit "greek levy pikemen"  0  requires factions { seleucid, macedon, } 
                 recruit "warband falx thracian"  0  requires factions { thrace, } 
                 recruit "greek hoplite"  1  requires factions { greek_cities, romans_senate, romans_scipii, } 
