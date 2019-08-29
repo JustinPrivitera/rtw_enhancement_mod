@@ -1003,13 +1003,22 @@ unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
+character	Gelo of Syracuse, named character, heir, age 17, , x 105, y 47 
+traits GoodCommander 1
+ancillaries tutor
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+
 character	Anaximander of Syracuse, diplomat, age 49, , x 104, y 44 
 traits GoodDiplomat 4 
 
 character	Deiphobus of Syracuse, diplomat, age 33, , x 141, y 49 
 traits GoodDiplomat 4 
 
-character	Pylaeus of Syracuse, spy, age 29, , x 105, y 46 
+character	Pylaeus of Syracuse, spy, age 29, , x 103, y 47 
 traits GoodSpy 4 
 
 character	Harmatidas of Syracuse, admiral, age 20, , x 105, y 41 
@@ -1018,12 +1027,11 @@ army
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 unit		naval biremes				exp 0 armour 0 weapon_lvl 0
 
-character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
-character_record		Gelo of Syracuse, 	male, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
-character_record		Demetria, 	female, command 0, influence 0, management 0, subterfuge 0, age 2, alive, never_a_leader
-character_record		Eurycleia, 	female, command 0, influence 0, management 0, subterfuge 0, age 1, alive, never_a_leader
+character_record		Phyllis, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
+character_record		Demetria, 	female, command 0, influence 0, management 0, subterfuge 0, age 10, alive, never_a_leader
+character_record		Eurycleia, 	female, command 0, influence 0, management 0, subterfuge 0, age 8, alive, never_a_leader
 
-relative 	Hiero of Syracuse, 	Harmonia,		Gelo of Syracuse,	Demetria,	Eurycleia,	end
+relative 	Hiero of Syracuse, 	Phyllis,		Gelo of Syracuse,	Demetria,	Eurycleia,	end
 
 
 faction	romans_senate, comfortable napoleon
