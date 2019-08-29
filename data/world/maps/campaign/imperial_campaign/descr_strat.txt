@@ -992,8 +992,8 @@ settlement
 }
 
 character	Hiero of Syracuse, named character, leader, age 38, , x 106, y 44 
-traits GoodCommander 2 , Intelligent 1 , GoodAdministrator 2 
-ancillaries brilliant_inventor, archimedes;, tax_farmer
+traits GoodCommander 2 , Intelligent 1 , GoodAdministrator 2 , GoodTaxman 2
+ancillaries brilliant_inventor, archimedes
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
