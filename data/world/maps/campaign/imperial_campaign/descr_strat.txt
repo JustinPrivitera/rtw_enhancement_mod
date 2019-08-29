@@ -913,6 +913,7 @@ character	Meliboeus of Illyria, named character, leader, age 26, , x 118, y 75
 traits GoodCommander 1 , PublicFaith 1 , GoodAdministrator 1 , Intelligent 1 
 ancillaries drillmaster
 army
+unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 unit		merc cilician pirate				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
@@ -922,6 +923,7 @@ character	Pleistarchos of Illyria, named character, heir, age 45, , x 105, y 90
 traits GoodCommander 2 , NaturalMilitarySkill 1 , GoodRiskyAttacker 1
 ancillaries shieldbearer
 army
+unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
@@ -930,6 +932,7 @@ character	Aegon of Illyria, named character, age 17, , x 122, y 73
 traits GoodCommander 1 , NaturalMilitarySkill 1
 ancillaries shieldbearer
 army
+unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
 unit		merc illyrian				exp 1 armour 0 weapon_lvl 0
