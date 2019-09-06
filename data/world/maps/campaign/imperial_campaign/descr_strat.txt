@@ -1035,7 +1035,7 @@ relative 	Hiero of Syracuse, 	Phyllis,		Gelo of Syracuse,	Demetria,	Eurycleia,	e
 
 
 faction	romans_senate, comfortable napoleon
-denari	5000
+denari	4500
 settlement
 {
 	level large_town
