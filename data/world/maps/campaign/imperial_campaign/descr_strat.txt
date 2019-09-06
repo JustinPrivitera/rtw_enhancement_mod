@@ -1063,10 +1063,6 @@ settlement
 	}
 	building
 	{
-		type hinterland_roads roads
-	}
-	building
-	{
 		type hinterland_farms farms
 	}
 	building
@@ -1075,9 +1071,9 @@ settlement
 	}
 }
 
-character	Cleon of Massilia, named character, leader, age 34, , x 67, y 82 
-traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2 
-ancillaries brilliant_inventor, playwright
+character	Protus of Massilia, named character, leader, age 34, , x 67, y 82 
+traits GoodCommander 1 , MathematicsSkill 1 , GoodAdministrator 1 
+ancillaries mathematician, playwright
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
@@ -1087,9 +1083,29 @@ unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
 
-character_record		Harmonia, 	female, command 0, influence 0, management 0, subterfuge 0, age 32, alive, never_a_leader
+character	Kallikrates of Massilia, named character, heir, age 17, , x 65, y 85 
+traits GoodCommander 1
+ancillaries tutor
+army
+unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
-relative 	Cleon of Massilia, 	Harmonia,		end
+character	Xenagoras of Massilia, diplomat, age 42, , x 99, y 51 
+traits GoodDiplomat 4 
+
+character	Pythogenes of Massilia, diplomat, age 31, , x 68, y 84 
+traits GoodDiplomat 4 
+
+character	Nikanor of Massilia, spy, age 27, , x 65, y 87 
+traits GoodSpy 4 
+
+character_record		Gygaea, 	female, command 0, influence 0, management 0, subterfuge 0, age 31, alive, never_a_leader
+character_record		Eucarpus of Massilia, 	male, command 0, influence 0, management 0, subterfuge 0, age 6, alive, never_a_leader
+character_record		Molpadia, 	female, command 0, influence 0, management 0, subterfuge 0, age 3, alive, never_a_leader
+
+relative 	Protus of Massilia, 	Gygaea,		Kallikrates of Massilia,	end
 
 
 faction	macedon, fortified napoleon
@@ -1223,6 +1239,10 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
